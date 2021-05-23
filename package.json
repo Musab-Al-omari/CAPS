@@ -1,0 +1,25 @@
+{
+  "name": "caps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "events.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Musab-Al-omari/CAPS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Musab-Al-omari/CAPS/issues"
+  },
+  "homepage": "https://github.com/Musab-Al-omari/CAPS#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "faker": "^5.5.3",
+    "jest": "^26.6.3"
+  }
+}
