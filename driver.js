@@ -22,7 +22,6 @@ function pickupHandler(obj) {
 }
 
 
-
 function functionOne(obj) {
   console.log(`DRIVER: picked up ${obj.orderId}`);
   events.emit('in-transit', obj)
@@ -56,4 +55,8 @@ function logger(string, obj) {
 function deliveredHandler(obj) {
   logger('delivered', obj)
 
+}
+module.exports = {
+  events: events,
+  logger: logger,
 }
